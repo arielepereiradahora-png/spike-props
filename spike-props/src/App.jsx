@@ -15,21 +15,21 @@ function App() {
           nome="Harry Potter e a Pedra Filosofal"
           preco="R$ 65,00"
           categoria="Literatura"
-          imagem="/imagens/livro harry potter.jpg"
+          imagem={`${import.meta.env.BASE_URL}imagens/livro harry potter.jpg`}
         />
 
         <ProdutoCard
           nome="Caneca Harry Potter"
           preco="R$ 35,00"
           categoria="Acessórios"
-          imagem="/imagens/caneca harry potter.webp"
+          imagem={`${import.meta.env.BASE_URL}imagens/caneca harry potter.webp`}
         />
 
         <ProdutoCard
           nome="Kit Marcador de Página Harry Potter"
           preco="R$ 15,00"
           categoria="Literatura"
-          imagem="/imagens/marca pagina magnetico.jpg"
+          imagem={`${import.meta.env.BASE_URL}imagens/marca pagina magnetico.jpg`}
         />
       </section>
 
